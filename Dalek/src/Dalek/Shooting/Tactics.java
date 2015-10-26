@@ -3,25 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package Dalek;
-
-import robocode.AdvancedRobot;
-import Dalek.Shooting.ShootingFactory;
+package Dalek.Shooting;
 
 /**
  * @date 24.10.2015
  * @author Moritz
  */
-public class Dalek extends AdvancedRobot {
-
-    @Override
-    public void run() {
-        
-    }
-    
-    public void setup(){
-        
-    }
-    
+public enum Tactics {
+    LinearTargeting,
+    CircularTargeting,
+    KillWavesurfer
 }
